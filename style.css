@@ -1,0 +1,51 @@
+body {
+	background: #d2d2c1 url(imgs/fundo.png);
+	font: 16px Arial, Helvetica, sans-serif ;
+}
+
+a:link, a:visited {
+	color: #767391;
+	text-decoration: none;
+}
+
+.menu {
+	list-style-type: none;
+	display: inline-flex;
+}
+
+.menu li{
+	margin-right: 15px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+#principal {
+	width: 900px;
+}
+
+#capa{
+	width: 65%;
+}
+
+#cabecalho{
+	margin: 0px;
+	background-color: #DAD6C0;
+	width: 65%;
+}
+
+#conteudo {
+	background-color: #FDFBED;
+	width: 65%;
+}
+
+#sobre {
+	margin: 0;
+	color: #9c9279;
+	font-family: arial;
+
+}
+
+#direitos {
+	font-weight: bold;
+	margin-left: 22.5%;
+}
