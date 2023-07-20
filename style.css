@@ -8,44 +8,50 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-.menu {
+.img-campanha {
+	border: 10px solid #c3c3ae;
+	margin: 0 10px;
+}
+
+#capa{
+	width: 80%;
+}
+
+#cabecalho{
+	background-color: #C5C5B2;
+	width: 80%;
+}
+
+#menu {
+	text-align: center;
 	list-style-type: none;
 	display: inline-flex;
 }
 
-.menu li{
-	margin-right: 15px;
+#menu li{
+	padding-right: 15px;
 	font-family: arial;
 	font-weight: bold;
-}
-
-#principal {
-	width: 900px;
-}
-
-#capa{
-	width: 65%;
-}
-
-#cabecalho{
-	margin: 0px;
-	background-color: #DAD6C0;
-	width: 65%;
+	text-align: left;
 }
 
 #conteudo {
-	background-color: #FDFBED;
-	width: 65%;
+	background-color: #e8e8d9;
+	width: 80%;
 }
 
 #sobre {
+	font-size: 1.2em;
 	margin: 0;
 	color: #9c9279;
 	font-family: arial;
 
 }
 
+#rodape {
+	width: 80%;
+}
+
 #direitos {
-	font-weight: bold;
-	margin-left: 22.5%;
+	text-align: center;
 }
